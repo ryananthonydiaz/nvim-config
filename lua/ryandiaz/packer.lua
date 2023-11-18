@@ -4,6 +4,21 @@ return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 
+    use 'MunifTanjim/prettier.nvim'
+
+    use 'onsails/lspkind.nvim'
+
+    use 'windwp/nvim-ts-autotag'
+
+    use 'windwp/nvim-autopairs'
+
+    use 'glepnir/lspsaga.nvim'
+
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
+
 	use {
 		'nvim-telescope/telescope.nvim', tag = '0.1.4',
 		-- or                            , branch = '0.1.x',
