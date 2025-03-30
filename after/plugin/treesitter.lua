@@ -19,5 +19,25 @@ require'nvim-treesitter.configs'.setup {
     -- Instead of true it can also be a list of languages
     additional_vim_regex_highlighting = false,
   },
+  autotag = {
+    'html',
+    'javascript',
+    'typescript',
+    'javascriptreact',
+    'typescriptreact',
+    'svelte',
+    'vue',
+    'tsx',
+    'jsx',
+    'rescript',
+    'xml',
+    'php',
+    'markdown',
+    'astro',
+    'glimmer',
+    'handlebars',
+    'hbs',
+    'rs',
+  }
 }
 
